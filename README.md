@@ -13,7 +13,7 @@ This repo is meant to help everyone in Inria Chile to use our GPU machine. It al
 
 ### Particular macOS steps
 
-- Install Xcode from the App Store and the Xcode command line tools using the [instructions](https://developer.apple.com/xcode/downloads/). In particular, by running `xcode-select --install`.
+- Install Xcode from the App Store and the Xcode command line tools using the [instructions](https://developer.apple.com/xcode/downloads/). In particular, by running `xcode-select --install`. (?)
 - Install [Homebrew (brew)](https://brew.sh/) by running:
 
     ```bash
@@ -107,8 +107,8 @@ TODO
 
 ### Project setup
 
-- Clone this repository.
-  - **Note:** the [`inria-ml-helloword`](https://github.com/Inria-Chile/inria-ml-helloworld) repo is a GitHub template, so you can click on the use this template button and create your own project.
+- Clone this repository. (?)
+  - **Note:** the [`inria-ml-helloword`](https://github.com/Inria-Chile/inria-ml-helloworld) repo is a GitHub template, so you can click on the use this template button and create your own project. 
 - Using the terminal `cd` into the project folder.
 - Set your git local user config.
 
