@@ -59,7 +59,7 @@
     // See https://code.visualstudio.com/docs/remote/devcontainerjson-reference for more options.
     // A command string or list of command arguments to run inside the container after it is created. 
     // The commands execute from the workspaceFolder in the container.
-    "postCreateCommand": "[ ! -d /workspace/${localWorkspaceFolderBasename}/.git ] && cd /workspace && git clone https://github.com/Inria-Chile/${localWorkspaceFolderBasename} || echo 0",
+    "postCreateCommand": "[ ! -d /workspace/${localWorkspaceFolderBasename}/.git ] && cd /workspace && git clone https://github.com/hernanlira/${localWorkspaceFolderBasename} || echo 0",
 
     // A command string or list of command arguments to run when the container starts (in all cases).
     "postStartCommand": "poetry install",
